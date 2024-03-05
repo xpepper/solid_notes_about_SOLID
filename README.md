@@ -144,8 +144,6 @@ To build software from interchangeable parts, those parts must adhere to a contr
 
 > Many client specific interfaces are better than one general purpose interface.
 
-<img src="https://media.giphy.com/media/3orif9Lbi54jzaFcpa/giphy.gif" width="650" height="400"/>
-
 ***Technique***:  
 - If you have a class that has several clients, rather than loading the class with all the methods that the clients need, create specific interfaces for each client and multiply inherit them into the class.
 - Without ISP components and classes would be much less useful and portable.
@@ -161,8 +159,6 @@ To build software from interchangeable parts, those parts must adhere to a contr
 ## <a name="dip">3.7 DIP - Dependency Inversion Principle (primary mechanism of OO architecture)</a>
 
 > Depend upon Abstractions. Do not depend upon concretions.
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdpcXA3N2FqY3huZ21sZHMydTF2cHJ6MHRyOXdrZGF2NXhnYW0yaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/E47JKwZnxvHuPjPkn1/giphy.gif" width="450" height="400"/>
 
 ### About DIP
 It’s a strategy of depending upon interfaces or abstract functions & classes, rather than upon concrete functions & classes.
@@ -192,8 +188,6 @@ Procedural architecture - dependency structure - like hierarchy in organisation 
 - Concrete class design creates instances -> littering architecture with dependencies upon abstract classes.
 
 ##
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnk0NHZqaDZsbWpyN2ZzZDh6YnV0Y201aWoyNWx0YWw1bTh3dm01dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y2qhz4wPA2XlK/giphy.gif" width="450" height="400"/>
 
 ## <a name="concepts">Concepts :bulb:</a>
 
