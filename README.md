@@ -59,8 +59,6 @@ or
 
 > A module should be responsible to one, and only one, actor. 
 
-<img src="https://media.giphy.com/media/dDFxLN7kLYVA4zc0qp/giphy.gif" width="500" height="400"/>
-
 ### What SRP is NOT:  
 “A function should do one, and only one, thing.” - it’s a refactoring principle, to refactor large functions into smaller functions; we use it at the lowest levels. But it’s NOT the SRP.
 
